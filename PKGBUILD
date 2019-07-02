@@ -17,7 +17,7 @@ makedepends=('cmake' 'ros-build-tools'
   pkg-config)
 
 ros_depends=()
-depends=(${ros_depends[@]})
+depends=(${ros_depends[@]} 'python2-empy')
 
 # Git version (e.g. for debugging)
 # _tag=release/melodic/tracetools/${pkgver}-${_pkgver_patch}
